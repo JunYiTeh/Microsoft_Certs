@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Message</title>
+</head>
+<body>
+    <script>
+        // TODO: add Hello code
+        function getMessage(name) {
+            return 'I love you, ' + name;
+        }
+
+        // function displayDone() {
+        //     console.log('Done!');
+        // }
+        // setTimeout(displayDone, 3000);
+
+        const message = getMessage('Sheri');
+        document.write(message);
+
+        setTimeout(
+            () => { //anonymous function
+                document.write('...Hello again!')
+            },
+            3000
+        )
+
+
+        // TODO: Add setTimeout code
+
+    </script>
+</body>
+</html>
